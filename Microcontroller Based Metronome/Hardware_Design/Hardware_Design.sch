@@ -1,0 +1,284 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LCD:LCD_2_4 DS?
+U 1 1 5FA48655
+P 6450 1750
+F 0 "DS?" H 6425 2865 50  0000 C CNN
+F 1 "LCD_2_4" H 6425 2774 50  0000 C CNN
+F 2 "" V 6200 650 50  0001 C CNN
+F 3 "" V 6200 650 50  0001 C CNN
+	1    6450 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PIC32MX250F128B-V_SP:PIC32MX250F128B-V_SP U?
+U 1 1 5FA4B1DF
+P 2250 2000
+F 0 "U?" V 1746 870 50  0000 R CNN
+F 1 "PIC32MX250F128B-V_SP" V 1655 870 50  0000 R CNN
+F 2 "DIP254P762X508-28" H 2250 2000 50  0001 L BNN
+F 3 "SPDIP-28 Microchip" H 2250 2000 50  0001 L BNN
+F 4 "PIC32MX250F128B-V/SP" H 2250 2000 50  0001 L BNN "Field4"
+F 5 "32 Bit MCU, 128KB Flash, 32KB RAM, 40 MHz, 28 Pin, 3 Comp, CTMU, RTCC, 28 SPDIP" H 2250 2000 50  0001 L BNN "Field5"
+F 6 "Microchip" H 2250 2000 50  0001 L BNN "Field6"
+F 7 "None" H 2250 2000 50  0001 L BNN "Field7"
+F 8 "Unavailable" H 2250 2000 50  0001 L BNN "Field8"
+	1    2250 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Analog_DAC:MCP4822 U?
+U 1 1 5FA53149
+P 1950 5500
+F 0 "U?" H 1950 6081 50  0000 C CNN
+F 1 "MCP4822" H 1950 5990 50  0000 C CNN
+F 2 "" H 2750 5200 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf" H 2750 5200 50  0001 C CNN
+	1    1950 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5FA8D536
+P 5200 5350
+F 0 "SW?" H 5200 5635 50  0000 C CNN
+F 1 "SW_Push" H 5200 5544 50  0000 C CNN
+F 2 "" H 5200 5550 50  0001 C CNN
+F 3 "~" H 5200 5550 50  0001 C CNN
+	1    5200 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5FA921D9
+P 6400 5350
+F 0 "SW?" H 6400 5635 50  0000 C CNN
+F 1 "SW_Push" H 6400 5544 50  0000 C CNN
+F 2 "" H 6400 5550 50  0001 C CNN
+F 3 "~" H 6400 5550 50  0001 C CNN
+	1    6400 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 3800 1950 3950
+Wire Wire Line
+	1950 3950 6100 3950
+Wire Wire Line
+	6100 3950 6100 2550
+Wire Wire Line
+	2050 3800 2050 4050
+Wire Wire Line
+	2050 4050 6200 4050
+Wire Wire Line
+	6200 4050 6200 2550
+Wire Wire Line
+	2150 3800 2150 4150
+Wire Wire Line
+	2150 4150 6700 4150
+Wire Wire Line
+	6700 4150 6700 2550
+Wire Wire Line
+	2250 3800 2250 4250
+Wire Wire Line
+	2250 4250 6800 4250
+Wire Wire Line
+	6800 4250 6800 2550
+Wire Wire Line
+	2350 3800 2350 4350
+Wire Wire Line
+	2350 4350 6600 4350
+Wire Wire Line
+	6600 4350 6600 2550
+Wire Wire Line
+	2650 3800 2650 4450
+Wire Wire Line
+	2650 4450 1350 4450
+Wire Wire Line
+	1350 4450 1350 5700
+Wire Wire Line
+	1350 5700 1450 5700
+Wire Wire Line
+	2750 3800 2750 4450
+Wire Wire Line
+	2750 4450 6400 4450
+Wire Wire Line
+	6400 4450 6400 2550
+Wire Wire Line
+	2950 3800 2950 4550
+Wire Wire Line
+	2950 4550 6300 4550
+Wire Wire Line
+	6300 4550 6300 2550
+Wire Wire Line
+	3050 3800 3050 4650
+Wire Wire Line
+	3050 4650 1250 4650
+Wire Wire Line
+	1250 4650 1250 5600
+Wire Wire Line
+	1250 5600 1450 5600
+Wire Wire Line
+	2550 1300 2550 1200
+Wire Wire Line
+	2550 1200 4400 1200
+Wire Wire Line
+	4400 1200 4400 5350
+Wire Wire Line
+	4400 5350 5000 5350
+Wire Wire Line
+	2450 1300 2450 1100
+Wire Wire Line
+	2450 1100 4550 1100
+Wire Wire Line
+	4550 1100 4550 5000
+Wire Wire Line
+	4550 5000 6200 5000
+Wire Wire Line
+	6200 5000 6200 5350
+Wire Wire Line
+	2050 1300 2050 1000
+Wire Wire Line
+	2050 1000 4700 1000
+Wire Wire Line
+	4700 1000 4700 3850
+Wire Wire Line
+	4700 3850 6900 3850
+Wire Wire Line
+	6900 3850 6900 2550
+Wire Wire Line
+	1750 1300 1750 900 
+Wire Wire Line
+	1750 900  4850 900 
+Wire Wire Line
+	4850 900  4850 3750
+Wire Wire Line
+	4850 3750 7100 3750
+Wire Wire Line
+	7100 3750 7100 2550
+Wire Wire Line
+	1650 1300 1650 900 
+Wire Wire Line
+	1650 900  1000 900 
+Wire Wire Line
+	1000 900  1000 5400
+Wire Wire Line
+	1000 5400 1450 5400
+$Comp
+L Connector:AudioJack2_Ground J?
+U 1 1 5FC467A5
+P 3200 5800
+F 0 "J?" H 3232 6125 50  0000 C CNN
+F 1 "AudioJack2_Ground" H 3232 6034 50  0000 C CNN
+F 2 "" H 3200 5800 50  0001 C CNN
+F 3 "~" H 3200 5800 50  0001 C CNN
+	1    3200 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 5400 3650 5400
+Wire Wire Line
+	3650 5400 3650 5700
+Wire Wire Line
+	3650 5700 3400 5700
+Wire Wire Line
+	3200 6050 4100 6050
+Wire Wire Line
+	6600 5350 6600 6050
+Wire Wire Line
+	5400 5350 5400 6050
+Connection ~ 5400 6050
+Wire Wire Line
+	5400 6050 6600 6050
+$Comp
+L power:GND #PWR?
+U 1 1 5FC4BFEF
+P 5400 6200
+F 0 "#PWR?" H 5400 5950 50  0001 C CNN
+F 1 "GND" H 5405 6027 50  0000 C CNN
+F 2 "" H 5400 6200 50  0001 C CNN
+F 3 "" H 5400 6200 50  0001 C CNN
+	1    5400 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 6200 5400 6050
+Wire Wire Line
+	3200 6050 3200 6000
+Wire Wire Line
+	1750 3800 1750 4750
+Wire Wire Line
+	1750 4750 4100 4750
+Wire Wire Line
+	4100 4750 4100 6050
+Connection ~ 4100 6050
+Wire Wire Line
+	4100 6050 5400 6050
+Text Label 3600 4750 0    50   ~ 0
+GND
+Wire Wire Line
+	7400 2550 7400 6050
+Wire Wire Line
+	7400 6050 6600 6050
+Connection ~ 6600 6050
+Wire Wire Line
+	3650 5700 3650 5800
+Wire Wire Line
+	3650 5800 3400 5800
+Connection ~ 3650 5700
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FC52F8E
+P 8050 4050
+F 0 "#PWR?" H 8050 3900 50  0001 C CNN
+F 1 "+3.3V" H 8065 4223 50  0000 C CNN
+F 2 "" H 8050 4050 50  0001 C CNN
+F 3 "" H 8050 4050 50  0001 C CNN
+	1    8050 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 4050 8050 4250
+Wire Wire Line
+	8050 4250 7300 4250
+Wire Wire Line
+	7300 4250 7300 2550
+Wire Wire Line
+	8050 4250 8050 4850
+Wire Wire Line
+	8050 4850 1950 4850
+Wire Wire Line
+	1950 4850 1950 5100
+Connection ~ 8050 4250
+Text Label 6750 4850 0    50   ~ 0
+PowerSupply
+Wire Wire Line
+	5800 2550 5800 2650
+Wire Wire Line
+	5800 2650 5900 2650
+Wire Wire Line
+	7200 2650 7200 2550
+Wire Wire Line
+	6000 2550 6000 2650
+Connection ~ 6000 2650
+Wire Wire Line
+	6000 2650 7200 2650
+Wire Wire Line
+	5900 2550 5900 2650
+Connection ~ 5900 2650
+Wire Wire Line
+	5900 2650 6000 2650
+$EndSCHEMATC

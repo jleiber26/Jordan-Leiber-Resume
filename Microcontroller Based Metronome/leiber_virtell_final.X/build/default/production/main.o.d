@@ -1,0 +1,23 @@
+build/default/production/main.o:  \
+main.c  \
+config.h  \
+TouchScreen.h  \
+ Adafruit_2_4_LCD_Serial_Library/tft_master.h  \
+ Adafruit_2_4_LCD_Serial_Library/tft_gfx.h  \
+ts_lcd.h  \
+adc_intf.h  \
+ debouncer.h  \
+button_detect.h  \
+calculator.h  \
+timer1.h  \
+ztimer.h  \
+ slider_handle.h  \
+draw_main_screen.h  \
+button_tempo_controller.h  \
+ metronome_tempo_fsm.h  \
+click_control.h  \
+uart1.h  \
+dds_fsm.h  \
+button_control.h  \
+ debouncer_tempo.h  \
+debounce_on_off.h 
