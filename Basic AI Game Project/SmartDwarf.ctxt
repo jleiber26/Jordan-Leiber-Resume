@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=SmartDwarf
+comment1.params=playField
+comment1.target=SmartDwarf(Location[][])
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ SmartDwarf\r\n
+comment2.params=
+comment2.target=java.lang.String\ getType()
+comment2.text=\r\n\ Returns\ a\ String\ representation\ of\ this\ Dwarf\r\n\r\n\ @return\ the\ String\ \r\n
+comment3.params=
+comment3.target=int\ getValue()
+comment3.text=\r\n\ Returns\ the\ cost\ of\ this\ Dwarf\r\n\ \r\n\ @return\ the\ cost\r\n
+comment4.params=x\ y
+comment4.target=boolean\ hasBeenHere(int,\ int)
+comment4.text=\r\n\ Tells\ if\ the\ Dwarf\ has\ been\ in\ a\ given\ location\r\n\r\n\ @param\ \ x\ \ the\ x\ coordinate\ of\ the\ location\r\n\ @param\ y\ the\ y\ coordinate\ of\ the\ location\r\n\ \r\n\ @return\ \ \ \ true\ if\ the\ Dwarf\ has\ been\ there\r\n
+comment5.params=input
+comment5.target=void\ addDanger(Location)
+comment5.text=\r\n\ Adds\ a\ location\ to\ the\ list\ of\ danger\ locations\r\n\ \r\n\ @param\ input\ the\ location\ being\ added\r\n
+comment6.params=x\ y
+comment6.target=boolean\ isDanger(int,\ int)
+comment6.text=\r\n\ Tells\ if\ a\ location\ is\ known\ to\ be\ dangerous\r\n\r\n\ @param\ \ x\ \ the\ x\ coordinate\ of\ the\ location\r\n\ @param\ y\ the\ y\ coordinate\ of\ the\ location\r\n\ \r\n\ @return\ \ \ \ true\ if\ the\ location\ is\ dangerous\r\n
+comment7.params=
+comment7.target=void\ move()
+comment7.text=\r\n\ Moves\ the\ Dwarf\ in\ a\ random\ direction\ by\ one\ space\r\n\r\n
+comment8.params=g\ x\ y\ size
+comment8.target=void\ paint(java.awt.Graphics,\ int,\ int,\ int)
+comment8.text=\r\n\ Put\ the\ Dwarf\ into\ the\ GUI\r\n\ \r\n\ @param\ g\ the\ Graphics\ object\r\n\ @param\ x\ the\ x\ location\ of\ the\ box\r\n\ @param\ y\ the\ y\ location\ of\ the\ box\r\n\ @param\ size\ the\ circle's\ diameter\r\n
+numComments=9

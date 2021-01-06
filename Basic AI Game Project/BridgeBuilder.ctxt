@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=BridgeBuilder
+comment1.params=playField
+comment1.target=BridgeBuilder(Location[][])
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ BridgeBuilder\r\n
+comment2.params=
+comment2.target=java.lang.String\ getType()
+comment2.text=\r\n\ Returns\ a\ String\ representation\ of\ this\ Dwarf\r\n\r\n\ @return\ the\ String\ \r\n
+comment3.params=
+comment3.target=int\ getValue()
+comment3.text=\r\n\ Returns\ the\ cost\ of\ this\ Dwarf\r\n\ \r\n\ @return\ the\ cost\r\n
+comment4.params=
+comment4.target=void\ tracePath()
+comment4.text=\r\n\ Follows\ the\ path\ back\ to\ gold\r\n\ \r\n
+comment5.params=
+comment5.target=void\ run()
+comment5.text=\r\n\ Updates\ the\ Dwarf's\ state\ and\ acts\r\n\ \r\n
+comment6.params=g\ x\ y\ size
+comment6.target=void\ paint(java.awt.Graphics,\ int,\ int,\ int)
+comment6.text=\r\n\ Put\ the\ Dwarf\ into\ the\ GUI\r\n\ \r\n\ @param\ g\ the\ Graphics\ object\r\n\ @param\ x\ the\ x\ location\ of\ the\ box\r\n\ @param\ y\ the\ y\ location\ of\ the\ box\r\n\ @param\ size\ the\ circle's\ diameter\r\n
+numComments=7

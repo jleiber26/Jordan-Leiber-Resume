@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=ExperimentController
+comment1.params=
+comment1.target=ExperimentController()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ ExperimentController\r\n
+comment2.params=
+comment2.target=void\ runExperiment()
+comment2.text=\r\n\ Runs\ tests,\ and\ outputs\ the\ information\ onto\ the\ output\ file\r\n\r\n
+numComments=3

@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Rock
+comment1.params=
+comment1.target=Rock()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Rock\r\n
+comment2.params=
+comment2.target=void\ hitRock()
+comment2.text=\r\n\ Breaks\ the\ rock\ by\ one\ hit\r\n
+comment3.params=
+comment3.target=java.lang.String\ getState()
+comment3.text=\r\n\ Constructor\ for\ objects\ of\ class\ Rock\r\n\ \r\n\ @return\ the\ state\ of\ the\ rock\r\n
+comment4.params=
+comment4.target=void\ printType()
+comment4.text=\r\n\ Just\ print\ out\ a\ letter\ representing\ what\ type\ of\ terrain\ this\ is.\ ONLY\ FOR\ TESTING\ DELETE\ THIS\ METHOD\!\!\r\n\ \r\n
+comment5.params=
+comment5.target=void\ run()
+comment5.text=\r\n\ Update\ the\ state\ of\ the\ Rock\r\n
+comment6.params=g\ boxWidth\ x\ y
+comment6.target=void\ paint(java.awt.Graphics,\ int,\ int,\ int)
+comment6.text=\r\n\ Put\ the\ Rock\ terrain\ into\ the\ GUI\r\n\ \r\n\ @param\ g\ the\ Graphics\ object\r\n\ @param\ boxWidth\ the\ width\ of\ the\ location\ box\r\n\ @param\ x\ the\ x\ location\ of\ the\ box\r\n\ @param\ y\ the\ y\ location\ of\ the\ box\r\n
+numComments=7
